@@ -1,0 +1,19 @@
+/* Rule that targets ALL h1 elements */
+h1 {
+    color: blue;
+  }
+  
+  /* Class selector: targets any element with class="thin-text" */
+  .thin-text {
+    background-color: lightyellow;
+    font-weight: 200;
+    padding: 10px;
+  }
+  
+  /* Resize image to 100x200 */
+  .small-img {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  #pink-style {
+    color: pink;
+  }
+  
+  .header-text {
+    color: purple;
+    font-size: 30px;
+  }
+  
+  .text-color {
+    color: blue;
+  }
+  
+  .product-card {
+    background-color: black;
+    color: purple;
+    border: 10px solid blue;
+  }
+  
+  .container {
+    background-color: rgb(245, 245, 245);
+    max-width: 1200px;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  

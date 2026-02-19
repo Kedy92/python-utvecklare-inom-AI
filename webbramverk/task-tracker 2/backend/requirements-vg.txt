@@ -1,0 +1,16 @@
+# Grundläggande dependencies (samma som requirements.txt)
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+sqlalchemy==2.0.25
+psycopg2-binary==2.9.9
+pydantic==2.5.3
+python-dotenv==1.0.0
+
+# VG-nivå extra dependencies
+openai==1.10.0              # AI-integration
+redis==5.0.1                # Caching
+celery==5.3.4               # Schemaläggning (alternativ)
+apscheduler==3.10.4         # Schemaläggning (enklare)
+aiosmtplib==3.0.1           # Asynkron email
+email-validator==2.1.0      # Email validering
+slowapi==0.1.9              # Rate limiting
